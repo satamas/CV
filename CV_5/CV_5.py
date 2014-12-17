@@ -13,7 +13,7 @@ def harris_detector(image):
                                    mask=None,
                                    useHarrisDetector=True,
                                    maxCorners=MAX_POINTS,
-                                   qualityLevel=0.15,
+                                   qualityLevel=0.02,
                                    minDistance=7,
                                    blockSize=7)
 
